@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "fmp-screener": {
+      "command": "python",
+      "args": [
+        "/Users/plawanrath/Documents/GitHub-public/plawan-claude-connectors/connectors/fmp-screener/server.py"
+      ],
+      "env": {
+        "PATH": "/Users/plawanrath/Documents/GitHub-public/plawan-claude-connectors/connectors/fmp-screener/venv/bin:/usr/local/bin:/usr/bin:/bin"
+      }
+    }
+  }
+}
