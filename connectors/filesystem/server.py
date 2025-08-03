@@ -9,7 +9,7 @@ from mcp.types import Tool
 def log(msg: str):
     print(f"[FilesystemConnector] {msg}", file=sys.stderr)
 
-mcp = FastMCP("filesystem-connector", version="1.0.0")
+mcp = FastMCP("filesystem-connector")
 
 # ---------- Tools -----------------------------------------------------------
 @mcp.tool(name="list_directory", description="Lists files / sub‑dirs in a directory")
