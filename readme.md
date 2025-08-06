@@ -74,6 +74,11 @@ To use your connector with Claude Desktop, add it to your Claude Desktop configu
 **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 **Windows**: `%APPDATA%/Claude/claude_desktop_config.json`
 
+You can run
+```bash
+mcp install connectors/your-connector-name/server.py
+```
+
 ```json
 {
   "mcpServers": {
@@ -97,6 +102,7 @@ To use your connector with Claude Desktop, add it to your Claude Desktop configu
 ### Prerequisites
 - Python 3.7+
 - MCP Python SDK (`pip install mcp`)
+- uv (`brew install uv`)
 
 ### Testing
 Use the MCP development tools to test connectors:
